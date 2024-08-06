@@ -1,4 +1,4 @@
-package Inclass8_2;
+package Lab5_Michael_Zhao;
 
 class Task {
     String taskName;

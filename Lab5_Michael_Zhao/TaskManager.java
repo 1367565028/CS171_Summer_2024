@@ -1,4 +1,4 @@
-package Inclass8_2;
+package Lab5_Michael_Zhao;
 
 public class TaskManager {
     private Task head;
@@ -23,10 +23,6 @@ public class TaskManager {
 
     // Remove a task with the given name from the linked list
     public void removeTask(String taskName) {
-        if (head == null) {
-            return;
-        }
-
         if (head.taskName.equals(taskName)) {
             head = head.next;
             return;
@@ -141,5 +137,6 @@ public class TaskManager {
         taskManager.displayTasks();
     }
 }
+
 
 
